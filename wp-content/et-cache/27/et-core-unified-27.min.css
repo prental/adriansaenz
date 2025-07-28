@@ -1,0 +1,36 @@
+.ov-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 999999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important
+}
+
+.ov-preloader .ov-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(https://adriansaenz.com/wp-content/uploads/2024/05/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: -50px 0 0 -50px
+}
+
+::-moz-selection {
+    color: #2b2b2b;
+    background: #efefef
+}
+
+::selection {
+    color: #2b2b2b;
+    background: #efefef
+}
